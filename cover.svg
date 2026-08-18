@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="2000" viewBox="0 0 1600 2000">
+  <title>FreClean Investor Book — Cover</title>
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0A2E4D"/>
+      <stop offset="55%" stop-color="#0A6ECA"/>
+      <stop offset="100%" stop-color="#21975D"/>
+    </linearGradient>
+  </defs>
+  <rect width="1600" height="2000" fill="url(#bgGrad)"/>
+
+  <circle cx="1350" cy="200" r="260" fill="white" fill-opacity="0.05"/>
+  <circle cx="150" cy="1850" r="320" fill="white" fill-opacity="0.05"/>
+
+  <rect x="120" y="120" width="140" height="140" rx="70" fill="white" fill-opacity="0.95"/>
+  <text x="190" y="212" text-anchor="middle" font-family="Arial, sans-serif" font-size="64" font-weight="bold" fill="#0A6ECA">F</text>
+
+  <text x="120" y="480" font-family="Arial, sans-serif" font-size="96" font-weight="800" fill="white">FreClean</text>
+  <text x="120" y="560" font-family="Arial, sans-serif" font-size="44" font-weight="600" fill="white" fill-opacity="0.95">Investor Book</text>
+
+  <line x1="120" y1="610" x2="700" y2="610" stroke="white" stroke-opacity="0.5" stroke-width="3"/>
+
+  <text x="120" y="670" font-family="Arial, sans-serif" font-size="24" fill="white" fill-opacity="0.9">Corporate Profile · Market Analysis · Business Model</text>
+  <text x="120" y="705" font-family="Arial, sans-serif" font-size="24" fill="white" fill-opacity="0.9">Financial Framework · Risk Analysis · Investment Thesis</text>
+
+  <text x="120" y="1850" font-family="Arial, sans-serif" font-size="20" fill="white" fill-opacity="0.8">Prepared August 2026</text>
+  <text x="120" y="1885" font-family="Arial, sans-serif" font-size="20" fill="white" fill-opacity="0.8">Every claim independently labeled: Confirmed · Planned · TBD · Not Yet Verified</text>
+
+  <text x="120" y="1940" font-family="Arial, sans-serif" font-size="18" font-style="italic" fill="white" fill-opacity="0.7">Clean Today. Sustain Tomorrow.</text>
+</svg>

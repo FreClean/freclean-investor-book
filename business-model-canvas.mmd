@@ -1,0 +1,47 @@
+flowchart TB
+    subgraph KP["Key Partners"]
+        P1["CeloHT ecosystem<br/>(Web3 & digital inclusion)"]
+        P2["Wholesale distributors<br/>(Planned)"]
+        P3["Manufacturing partners<br/>(TBD)"]
+    end
+    subgraph KA["Key Activities"]
+        A1["Cleaning service delivery"]
+        A2["Product manufacturing<br/>& distribution"]
+        A3["Entrepreneurship &<br/>franchise enablement"]
+    end
+    subgraph VP["Value Proposition"]
+        V1["Reliable, affordable,<br/>eco-responsible cleaning"]
+        V2["Entrepreneurship &<br/>economic empowerment"]
+        V3["Modern digital payments<br/>incl. USDm / CELO"]
+    end
+    subgraph CR["Customer Relationships"]
+        C1["Direct service delivery"]
+        C2["Wholesale/distributor<br/>accounts (Planned)"]
+    end
+    subgraph CS["Customer Segments"]
+        S1["Residential"]
+        S2["Commercial &<br/>hospitality"]
+        S3["Institutions & NGOs"]
+        S4["Distributors &<br/>entrepreneurs"]
+    end
+    subgraph CH["Channels"]
+        H1["Direct / on-site service"]
+        H2["Retail & wholesale<br/>(Planned)"]
+        H3["Digital / website<br/>(Planned)"]
+    end
+    subgraph CST["Cost Structure"]
+        T1["Labor & service delivery"]
+        T2["Manufacturing & materials<br/>(TBD supplier data)"]
+        T3["Distribution & logistics"]
+    end
+    subgraph RS["Revenue Streams"]
+        R1["Service contracts"]
+        R2["Product sales<br/>(retail & wholesale)"]
+        R3["White/private label<br/>manufacturing"]
+        R4["Franchise fees<br/>(TBD terms)"]
+    end
+
+    KP --> KA --> VP --> CR --> CS
+    KA --> CH --> CS
+    CST -.funds.-> KA
+    CS -.generates.-> RS

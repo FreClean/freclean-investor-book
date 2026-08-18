@@ -1,0 +1,16 @@
+flowchart LR
+    A["Raw Materials &<br/>Sourcing (TBD)"] --> B["Manufacturing<br/>(TBD facility)"]
+    B --> C["Packaging<br/>(Concept stage)"]
+    C --> D["Inventory &<br/>Warehousing (TBD)"]
+    D --> E["Distribution<br/>(Direct, Retail,<br/>Wholesale)"]
+    E --> F["Service Delivery /<br/>Point of Sale"]
+    F --> G["Customer"]
+    G -.feedback.-> B
+    subgraph Support["Support Activities"]
+        S1["Brand & Marketing"]
+        S2["Digital Payments<br/>(USDm / CELO)"]
+        S3["Entrepreneurship &<br/>Franchise Programs"]
+        S4["Quality & Safety<br/>(Framework TBD)"]
+    end
+    Support -.enables.-> E
+    Support -.enables.-> F

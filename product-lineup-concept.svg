@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="600" viewBox="0 0 1200 600">
+  <title>FreClean product lineup — CONCEPT mockup (not final product photography)</title>
+  <defs>
+    <linearGradient id="g1" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#0A6ECA"/>
+      <stop offset="100%" stop-color="#21975D"/>
+    </linearGradient>
+    <linearGradient id="g2" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#21975D"/>
+      <stop offset="100%" stop-color="#4FA022"/>
+    </linearGradient>
+    <linearGradient id="g3" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#4FA022"/>
+      <stop offset="100%" stop-color="#0A6ECA"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="600" fill="#F2F5F6"/>
+  <rect x="0" y="500" width="1200" height="100" fill="#E4E9EB"/>
+
+  <!-- Bottle 1: Multi-Purpose -->
+  <g transform="translate(260,120)">
+    <rect x="-40" y="-40" width="80" height="30" rx="6" fill="#DDE3E7" stroke="#B9C2C9" stroke-width="2"/>
+    <path d="M-55,-10 C-55,-10 -60,20 -60,45 L-60,320 C-60,345 -30,360 0,360 C30,360 60,345 60,320 L60,45 C60,20 55,-10 55,-10 Z"
+          fill="url(#g1)" fill-opacity="0.20" stroke="url(#g1)" stroke-width="4"/>
+    <rect x="-38" y="90" width="76" height="110" rx="6" fill="white" stroke="#0A6ECA" stroke-width="2"/>
+    <text x="0" y="140" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="#0A6ECA">FreClean</text>
+    <text x="0" y="160" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#333">Multi-Purpose</text>
+    <text x="0" y="174" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#333">Cleaner</text>
+  </g>
+
+  <!-- Bottle 2: Bathroom Cleaner (taller, center) -->
+  <g transform="translate(560,90)">
+    <rect x="-42" y="-40" width="84" height="32" rx="6" fill="#DDE3E7" stroke="#B9C2C9" stroke-width="2"/>
+    <path d="M-58,-8 C-58,-8 -63,25 -63,50 L-63,350 C-63,378 -32,395 0,395 C32,395 63,378 63,350 L63,50 C63,25 58,-8 58,-8 Z"
+          fill="url(#g2)" fill-opacity="0.20" stroke="url(#g2)" stroke-width="4"/>
+    <rect x="-40" y="100" width="80" height="115" rx="6" fill="white" stroke="#21975D" stroke-width="2"/>
+    <text x="0" y="150" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="#21975D">FreClean</text>
+    <text x="0" y="170" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#333">Bathroom</text>
+    <text x="0" y="184" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#333">Cleaner</text>
+  </g>
+
+  <!-- Bottle 3: Glass Cleaner (spray) -->
+  <g transform="translate(860,140)">
+    <rect x="-15" y="-70" width="30" height="35" fill="#C9CFD3" stroke="#B9C2C9" stroke-width="2"/>
+    <rect x="-45" y="-40" width="90" height="20" rx="6" fill="#DDE3E7" stroke="#B9C2C9" stroke-width="2"/>
+    <path d="M-50,-20 C-50,-20 -55,10 -55,35 L-55,290 C-55,312 -28,325 0,325 C28,325 55,312 55,290 L55,35 C55,10 50,-20 50,-20 Z"
+          fill="url(#g3)" fill-opacity="0.20" stroke="url(#g3)" stroke-width="4"/>
+    <rect x="-34" y="80" width="68" height="95" rx="6" fill="white" stroke="#4FA022" stroke-width="2"/>
+    <text x="0" y="122" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" font-weight="bold" fill="#3C7E19">FreClean</text>
+    <text x="0" y="140" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#333">Glass</text>
+    <text x="0" y="152" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#333">Cleaner</text>
+  </g>
+
+  <text x="600" y="60" text-anchor="middle" font-family="Arial, sans-serif" font-size="26" font-weight="bold" fill="#222222">FreClean — Concept Product Lineup</text>
+
+  <!-- watermark -->
+  <rect x="0" y="556" width="1200" height="44" fill="#B33A0022"/>
+  <text x="600" y="584" text-anchor="middle" font-family="Arial, sans-serif" font-size="17" font-weight="bold" fill="#B33A00">CONCEPT — NOT FINAL PRODUCT PHOTOGRAPHY</text>
+</svg>

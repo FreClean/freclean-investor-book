@@ -1,0 +1,18 @@
+flowchart TB
+    subgraph Front["Customer-Facing"]
+        F1["Sales & Booking"]
+        F2["Service Delivery"]
+        F3["Customer Support"]
+    end
+    subgraph Middle["Operations Core"]
+        M1["Scheduling &<br/>Staff Allocation (TBD)"]
+        M2["Inventory Management"]
+        M3["Quality Control<br/>(Framework TBD)"]
+    end
+    subgraph Back["Back Office"]
+        B1["Manufacturing /<br/>Procurement (TBD)"]
+        B2["Finance &<br/>Payments (incl. USDm/CELO)"]
+        B3["Admin Platform<br/>(Prototype stage)"]
+    end
+    Front --> Middle --> Back
+    Back -.supports.-> Front

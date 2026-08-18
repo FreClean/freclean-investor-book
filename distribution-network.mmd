@@ -1,0 +1,15 @@
+flowchart LR
+    M["Manufacturing<br/>(TBD facility)"] --> W["Central Inventory<br/>(TBD location)"]
+    W --> D1["Direct Sales"]
+    W --> D2["Retail Partners<br/>(Planned)"]
+    W --> D3["Wholesale Distributors<br/>(Planned)"]
+    D1 --> CU["End Customer"]
+    D2 --> CU
+    D3 --> CU2["Retail / Business<br/>Customers"]
+    subgraph Geo["Geographic Reach"]
+        G1["Haiti<br/>(Current base)"]
+        G2["Dominican Republic<br/>(Stated expansion target)"]
+        G3["Wider Caribbean<br/>(Stated expansion target)"]
+        G4["International<br/>(Long-term vision)"]
+    end
+    W -.expands into.-> Geo

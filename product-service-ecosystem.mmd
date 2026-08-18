@@ -1,0 +1,8 @@
+flowchart LR
+    C["Customer"] --> S["Service<br/>(cleaning delivered)"]
+    S --> P["Product Exposure<br/>(customer sees FreClean<br/>products in use)"]
+    P --> R["Repeat Purchase<br/>(customer buys<br/>products directly)"]
+    R --> D["Distribution Growth<br/>(retail / wholesale demand)"]
+    D --> G["Business Growth<br/>(revenue, brand reach)"]
+    G -.reinvests in.-> S
+    G -.reinvests in.-> P
